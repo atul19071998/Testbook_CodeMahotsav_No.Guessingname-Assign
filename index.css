@@ -1,0 +1,132 @@
+/* styling starts here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* styling to body */
+body {
+  background: linear-gradient(to bottom, orange, white, green);
+  background-repeat: no-repeat;
+}
+/* styling to section */
+.section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+/* styling to uppersection */
+.upper-section {
+  width: 40%;
+  height: 80%;
+  border: 1px solid black;
+  padding: 5px 5px;
+  border-radius: 10px;
+  border-color: transparent;
+  box-shadow: 0 25px 42px rgba(0, 0, 0, 0.3);
+}
+/* styling to middle section */
+.middle-section {
+  height: 200px;
+}
+/* styling to bottom section */
+.bottom-section {
+  height: 200px;
+}
+/* styling to header section*/
+.header {
+  font-size: 25px;
+  margin-top: 5px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* styling to next heading*/
+.next-heading {
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 10px auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* styling to heading tag*/
+.heading {
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: bold;
+  margin-top: 25px;
+  color: blue;
+}
+/* styling to input section*/
+.input {
+  width: 250px;
+  text-align: center;
+  height: 50px;
+  margin-top: 20px;
+  border-color: transparent;
+  background-color: transparent;
+  color: blue;
+} /* styling to input in a input section */
+.input-section input {
+  font-size: 18px;
+  color: blue;
+}
+/* styling to button*/
+.btn {
+  margin-top: 25px;
+  width: 150px;
+  height: 50px;
+  border-color: transparent;
+  border-radius: 25px;
+  background-image: linear-gradient(orange, white, green);
+  color: blue;
+  box-shadow: 0 25px 42px rgba(0, 0, 0, 0.3);
+  font-size: 18px;
+}
+/* styling to class para2 */
+.para2 {
+  font-size: 18px;
+  margin-top: 15px;
+  color: white;
+}
+/* styling to class para3 */
+.para3 {
+  font-size: 18px;
+  margin-top: 10px;
+  color: white;
+}
+/* styling to aside section */
+.aside {
+  /* display: flex; */
+  font-size: 25px;
+}
+/* styling to side 1 */
+.side1 {
+  color: rgb(254, 182, 65);
+  text-shadow: 2px 2px 4px #000000;
+}
+/* styling to side 2*/
+.side2 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+/* styling to side 2 */
+.side3 {
+  color: rgb(14, 224, 63);
+  text-shadow: 2px 2px 4px #000000;
+}
+/* styling to side4 class*/
+.side4 {
+  font-size: 25px;
+  font-weight: 200;
+  margin-top: 10px;
+  margin-left: 20px;
+  text-shadow: 0 0 3px #f9fcfc;
+  color: darkblue;
+}
+/* styling ends here */
